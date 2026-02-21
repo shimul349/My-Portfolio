@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <style>
         :root {
             --bg-dark: #000000;
@@ -1004,6 +1005,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+           
         }
 
         /* Orbital System */
@@ -1018,7 +1020,7 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%,-50%);
             width: 80px;
             height: 80px;
             background: radial-gradient(circle, #00b4d8, #004e7c);
@@ -1384,6 +1386,7 @@
     color: var(--text-white);
     text-align: center;
     padding: 100px 20px;
+    
 }
 
 .contact-title {
@@ -1391,7 +1394,10 @@
     font-weight: 700;
     margin-bottom: 10px;
     color: var(--neon-blue);
+    text-shadow: 0 0 10px var(--neon-blue);
 }
+
+
 
 .contact-subtitle {
     font-size: 1.2rem;
@@ -1443,50 +1449,10 @@
 .instagram:hover { color: #e1306c; border-color: #e1306c; }
 .twitter:hover { color: #1DA1F2; border-color: #1DA1F2; }
 .github:hover { color: var(--text-white); border-color: var(--text-white); }
-.gmail:hover { color: #EA4335; border-color: #EA4335; }
+.gmail:hover { color: #f48507; border-color: #EA4335; }
+.linkedin:hover { color: #ffffff; border-color: #0077B5; }
 
-
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 3rem;
-            background: transparent;
-            border-top: 1px solid var(--glass-border);
-            transition: var(--transition);
-        }
-
-        .light-theme footer {
-            background: rgba(240, 248, 255, 0.7);
-        }
-
-        .footer-text {
-            color: var(--text-gray);
-            margin-bottom: 1.5rem;
-        }
-
-        .back-to-top {
-            display: inline-block;
-            padding: 12px 25px;
-            background: var(--glass-bg);
-            backdrop-filter: blur(10px);
-            border: 1px solid var(--glass-border);
-            border-radius: 50px;
-            color: var(--text-white);
-            text-decoration: none;
-            transition: var(--transition);
-            font-weight: 500;
-        }
-
-        .light-theme .back-to-top {
-            color: var(--text-gray);
-        }
-
-        .back-to-top:hover {
-            background: linear-gradient(45deg, var(--electric-blue), var(--neon-blue));
-            color: white;
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 180, 216, 0.3);
-        }
+       
 
         /* Animations */
         @keyframes fadeInUp {
@@ -1756,9 +1722,9 @@
                 <br>
                 <h3>Hi, I’m Shimul Bonik — a dreamer, a learner, and a creator who believes in turning ideas into impact.</h3>
                <p style="line-height: 1.6;">
-                    I’m Shimul Bonik, a 12th grader at Sreemangal Govt College, Bangladesh, I’m passionate about programming, gaming, and innovation, and I see every project as a blank canvas to paint my imagination onto.</p>
+                    I’m Shimul Bonik, a 12th grader at Sreemangal Govt College, Bangladesh, I’m passionate about programming, exploring mysterious things, gaming and innovation, and I see every project as a blank canvas to paint my imagination onto.</p>
                     
-                <p style="line-height: 1.6;"> My journey as a student isn’t just about grades — it’s about growth. I love exploring new technologies, learning from challenges, and pushing my creative limits. </p>
+                <p style="line-height: 1.6;"> My journey as a student isn’t just about grades — it’s about growth. I love exploring new technologies, I want to explore space and understand the mysteries of the cosmos, learning from challenges, and pushing my creative limits. </p>
 
                 <p style="line-height: 1.6;"> Currently, I am working as an member of <strong>Global Unity Foundation</strong>, a Conbiner . I was also the president of <strong>Supreme Science & Technology Association - (SSTA)</strong>, Facebook.
                      My school life, I’ve actively participated in quizzing, drawing, and other curricular activities, earning numerous prizes that shaped my confidence and critical thinking skills. </p>
@@ -1769,7 +1735,7 @@
                 <div class="tech-stack">
                     <div class="tech-item">Science</div>
                     <div class="tech-item">Technology</div>
-                    <div class="tech-item">Researcher</div>
+                    <div class="tech-item">Research</div>
                     <div class="tech-item">Gamer</div>
                     <div class="tech-item">Photographer</div>
                     <div class="tech-item">Community Builder</div>
@@ -2112,19 +2078,18 @@
     <a href="mailto:shimulbonik13@gmail.com" class="social-btn gmail">
       <i class="fas fa-envelope"></i>
     </a>
+    <a href="https://www.linkedin.com/in/shimul-bonik-08a5873b2" class="social-btn linkedin">
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+      
   </div>
+ 
+              
 </section>
 
     
     
-    <!-- Footer -->
-    <footer>
-        <p class="footer-text">© 2025 Shimul Bonik. Exploring the final frontier of technology.</p>
-        <a href="#home" class="back-to-top">
-            <i class="fas fa-arrow-up"></i>
-            Back to Top
-        </a>
-    </footer>
+  
 
     <script>
         // Create stars for background
